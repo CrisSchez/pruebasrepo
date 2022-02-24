@@ -27,3 +27,5 @@ spark.sql("select * from default.telco_churn").show()
 !pip3 install pandas
 # To get more detailed information about the hive table you can run this:
 df = spark.sql("SELECT * FROM default.telco_churn").toPandas()
+
+dfFemale=df[df['gender']=='Female']
