@@ -29,3 +29,4 @@ spark.sql("select * from default.telco_churn").show()
 df = spark.sql("SELECT * FROM default.telco_churn").toPandas()
 
 
+#actualizamos el fichero
