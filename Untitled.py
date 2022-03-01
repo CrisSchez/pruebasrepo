@@ -29,7 +29,7 @@ spark.sql("select * from default.telco_churn").show()
 df = spark.sql("SELECT * FROM default.telco_churn").toPandas()
 
 dfFemale=df[df['gender']=='Female']
-telcoFemale=spark.sql("select * from default.telco_churn where gender eq 'Female'")
+telcoFemale=spark.sql("select * from default.telco_churn where gender = 'Female'")
 if ('telco_churn_female' not in list(spark.sql("show tables in default").toPandas()['tableName'])):
     print("creating the telco_churn_female database")
     telcoFemale\
