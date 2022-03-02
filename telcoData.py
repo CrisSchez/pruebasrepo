@@ -29,4 +29,4 @@ spark.sql("select * from default.telco_churn").show()
 df = spark.sql("SELECT * FROM default.telco_churn").toPandas()
 
 
-#carga de datos
+#carga de datos de telco
