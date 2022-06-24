@@ -40,3 +40,4 @@ if ('telco_churn_female' not in list(spark.sql("show tables in default").toPanda
         )
         
 #añade comentarios
+# today is 22 May
