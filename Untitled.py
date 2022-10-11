@@ -40,4 +40,4 @@ if ('telco_churn_female' not in list(spark.sql("show tables in default").toPanda
         )
         
 #añade comentarios
-# introduce date and time: 
+# introduce date and time: 11 10 22 15 30
